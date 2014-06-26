@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Vinicius Kastrup"]
   s.date = "2014-06-26"
-  s.description = "TODO: longer description of your gem"
+  s.description = "Ruby library for working with Samba Videos data API"
   s.email = "viniciusmkm@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -20,6 +20,9 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".rspec",
+    ".ruby-gemset",
+    ".ruby-version",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -32,27 +35,41 @@ Gem::Specification.new do |s|
     "lib/samba_videos/initialization.rb",
     "lib/samba_videos/media.rb",
     "lib/samba_videos/project.rb",
-    "test/helper.rb",
-    "test/test_samba-videos-api.rb"
+    "samba-videos-api.gemspec",
+    "spec/fixtures/categories.json",
+    "spec/fixtures/category.json",
+    "spec/fixtures/media.json",
+    "spec/fixtures/medias.json",
+    "spec/fixtures/project.json",
+    "spec/fixtures/projects.json",
+    "spec/samba_videos/base_spec.rb",
+    "spec/samba_videos/category_spec.rb",
+    "spec/samba_videos/media_spec.rb",
+    "spec/samba_videos/project_spec.rb",
+    "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/viniciusmkm/samba-videos-api"
+  s.homepage = "http://github.com/Edools/samba-videos-api"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Ruby wrapper for Samba Videos API"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<activeresource>, [">= 4.0.0"])
-      s.add_development_dependency(%q<shoulda>, [">= 0"])
+      s.add_development_dependency(%q<rspec>, ["~> 3.0.0"])
+      s.add_development_dependency(%q<fakeweb>, ["~> 1.3"])
+      s.add_development_dependency(%q<yard>, ["~> 0.7"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 2.0.1"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
     else
       s.add_dependency(%q<activeresource>, [">= 4.0.0"])
-      s.add_dependency(%q<shoulda>, [">= 0"])
+      s.add_dependency(%q<rspec>, ["~> 3.0.0"])
+      s.add_dependency(%q<fakeweb>, ["~> 1.3"])
+      s.add_dependency(%q<yard>, ["~> 0.7"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<bundler>, ["~> 1.0"])
       s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
@@ -60,7 +77,9 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<activeresource>, [">= 4.0.0"])
-    s.add_dependency(%q<shoulda>, [">= 0"])
+    s.add_dependency(%q<rspec>, ["~> 3.0.0"])
+    s.add_dependency(%q<fakeweb>, ["~> 1.3"])
+    s.add_dependency(%q<yard>, ["~> 0.7"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
     s.add_dependency(%q<bundler>, ["~> 1.0"])
     s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
