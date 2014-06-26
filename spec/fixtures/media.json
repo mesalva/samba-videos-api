@@ -1,0 +1,86 @@
+{
+  "id" : "123abc",
+  "title" : "Teste",
+  "status" : "ACTIVE",
+  "qualifier" : "VIDEO",
+  "description" : null,
+  "shortDescription" : null,
+  "categoryName" : "_null",
+  "categoryId" : 0,
+  "postdate" : 1401152294000,
+  "lastModified" : 1402981266000,
+  "publishDate" : 1401219685000,
+  "unpublishDate" : null,
+  "published" : true,
+  "highlighted" : false,
+  "restricted" : false,
+  "secondUrl" : null,
+  "numberOfViews" : 11,
+  "numberOfComments" : 0,
+  "numberOfRatings" : 0,
+  "childStatus" : "ACTIVE",
+  "blocked" : false,
+  "tags" : [ ],
+  "files" : [
+    {
+      "id" : "aaa123",
+      "qualifier" : "VIDEO",
+      "fileName" : "Teste.mp4",
+      "fileSize" : "316613033",
+      "status" : "ACTIVE",
+      "postdate" : 1401152294000,
+      "mimeType" : null,
+      "outputName" : "_RAW",
+      "outputId" : 0,
+      "url" : "http://d.sambavideos.sambatech.com/account/458/4/2014-05-26/video/aaa123/Brand_terms_-_validando_e_ajustando_a_otimizacao.mp4",
+      "fileInfo" : {
+        "qualifier" : "VideoInfoDTO",
+        "duration" : 513000,
+        "bitrate" : 4715520,
+        "framerate" : 29.97,
+        "width" : 1920,
+        "height" : 1080,
+        "videoCodec" : "H264",
+        "audioCodec" : "aac",
+        "audioChannels" : 2,
+        "audioSampleRate" : 48000
+      }
+    },
+    {
+      "id" : "bbb123",
+      "qualifier" : "VIDEO",
+      "fileName" : "Teste.mp4",
+      "fileSize" : "9784840",
+      "status" : "ACTIVE",
+      "postdate" : 1401152407000,
+      "mimeType" : null,
+      "outputName" : "360p",
+      "outputId" : 10001,
+      "url" : "http://d.sambavideos.sambatech.com/account/458/4/2014-05-26/video/bbb123/Brand_terms_-_validando_e_ajustando_a_otimizacao.mp4",
+      "fileInfo" : {
+        "qualifier" : "VideoInfoDTO",
+        "duration" : 513000,
+        "bitrate" : 88064,
+        "framerate" : 29.97,
+        "width" : 640,
+        "height" : 360,
+        "videoCodec" : "H264",
+        "audioCodec" : "aac",
+        "audioChannels" : 2,
+        "audioSampleRate" : 48000
+      }
+    }
+  ],
+  "thumbs" : [
+    {
+      "height" : 120,
+      "size" : 3435,
+      "width" : 213,
+      "url" : "http://d.sambavideos.sambatech.com/account/458/4/2014-05-26/thumbnail/ccc123/Brand_terms_-_validando_e_ajustando_a_otimizacaomp4_213x120.jpg",
+      "status" : "ACTIVE"
+    } 
+  ],
+  "genders" : [ ],
+  "captions" : [ ],
+  "externalPublishings" : [ ]
+}

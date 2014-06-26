@@ -1,0 +1,13 @@
+{
+    "name": "Categoria Noticias",
+    "parent": null,
+    "id": 1,
+    "mediasCount": 0,
+    "hidden": false,
+    "genre": null,
+    "connectedAccounts": [],
+    "children": [ ],
+    "system": false,
+    "deleted": false,
+    "leadEnabled": false
+}

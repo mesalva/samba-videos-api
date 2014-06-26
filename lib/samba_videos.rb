@@ -1,0 +1,6 @@
+require 'active_resource'
+require 'samba_videos/initialization'
+require 'samba_videos/base'
+require 'samba_videos/media'
+require 'samba_videos/project'
+require 'samba_videos/category'

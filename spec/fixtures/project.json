@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "name":"Teste",
+  "description":"",
+  "defaultOutput":9955,
+  "permission": {
+    "levelId":1,
+    "role":"ADMIN",
+    "categories":[]
+  },
+  "system":false,
+  "deleted":false
+}
