@@ -50,7 +50,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/Edools/samba-videos-api"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.2.2"
+  s.rubygems_version = "2.3.0"
   s.summary = "Ruby wrapper for Samba Videos API"
 
   if s.respond_to? :specification_version then
@@ -76,8 +76,8 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<simplecov>, [">= 0"])
     end
   else
-    s.add_dependency(%q<activeresource>, [">= 4.0.0"])
-    s.add_dependency(%q<rspec>, ["~> 3.0.0"])
+    s.add_dependency(%q<activeresource>, [">= 5.0.0"])
+    s.add_dependency(%q<rspec>, ["~> 3.4.0"])
     s.add_dependency(%q<fakeweb>, ["~> 1.3"])
     s.add_dependency(%q<yard>, ["~> 0.7"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
